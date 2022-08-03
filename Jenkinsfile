@@ -4,6 +4,7 @@ pipeline {
 		stage('---clean---'){
 			tools {
 				maven 'mvn3.8.6'
+				jdk 'jdk9'
 			}
 			steps {
 				
